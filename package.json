@@ -1,8 +1,11 @@
 {
   "name": "markdown-it-vue",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sandbox for rendering markdown in vue templates using markdown-it.",
   "main": "index.html",
+  "repository": {
+    "url": "https://github.com/brianzelip/markdown-it-vue.git"
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
