@@ -1,6 +1,7 @@
 <template>
   <div id="app2">
     <h1>markdown-it vue sandbox</h1>
+    <h2>special shot out to parcel!</h2>
     <div v-html="bio"></div>
   </div>
 </template>
