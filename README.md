@@ -4,7 +4,7 @@
 
 I want to be able to write copy/prose/narrative/marketing/brochure/narrative/story content separate from writing the html where this content gets published, preferably in markdown.
 
-I don't want to render markdown files as "pages" in the way that Gridsome seems to encourage. Rather, think of the the role of the markdown file as much smaller than that in scope - instead of a page, the markdown file represents one data point in a(ny) page. Instead of a title, front matter, and body copy as is the case with tradition blog use of markdown files, the use case I'm coming from is having a very static document, that has very obvious components of finite content, of a manageable scale for manual hands-on writing of html.
+I don't want to render markdown files as "pages" in the way that Gridsome seems to encourage. Rather, think of the the role of the markdown file as much smaller than that in scope - instead of a page, the markdown file represents one data point in a(ny) page. Instead of a title, front matter, and body copy as is the case with tradition blog use of markdown files, the use case I'm coming from is having a very static document, that has very obvious components of finite content, of a manageable scale for manual hands-on writing of html. But instead of writing this body copy in the html, I want to be able to write it in markdown.
 
 Let's say I want to import this entire markdown file into a component. There's not much difference between this and a blog post, as there are multiple paragraphs, with a logical narrative.
 
