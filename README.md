@@ -30,6 +30,11 @@ Sure, the bio statement is just a string, and since I'm using Vue, why not just 
 
 This repo was born from attempts at getting [Gridsome](https://gridsome.org) to generate my static home page out of Vue components that render markdown content. However, Gridsome seems to only want to work with markdown files at page scale (file == page), not at the more granular data point scale (file == page content).
 
+## Vue-related concerns with this approach
+
+- imposes extra `<div>` wrapper that is not found in the pure html version
+- sends big ass js bundle down the pipe to the user, even though there is no js in use on the page
+
 ## legacy brainstorm
 
 I want to be able to write body copy/prose/narrative/marketing/brochure content/narrative/story content separate from writing the html where this content gets published, preferably in markdown.
