@@ -15,10 +15,10 @@ See [the demo](https://markdown-it-vue.netlify.com).
 
 ## guiding ideas
 
-- markdown files as components of prose/body copy/marketing text
-- markdown files as data, not as pages
-- maintain strings in an [authorable format](https://johno.com/authorable-format)
-- import one or more markdown files into Vue components
+1. markdown files as components of prose/body copy/marketing text
+2. markdown files as data, not as pages
+3. maintain string data in markdown (an [authorable format](https://johno.com/authorable-format))
+4. import one or more markdown files into Vue components
 
 ## background
 
@@ -32,8 +32,10 @@ This repo was born from attempts at getting [Gridsome](https://gridsome.org) to 
 
 ## Vue-related concerns with this approach
 
-- imposes extra `<div>` wrapper that is not found in the [pure html version](https://github.com/brianzelip/brianzelip.github.io/blob/master/index.html#L67)
-- sends big ass js bundle down the pipe to the user, even though there is no js in use on the page
+1. imposes pesky extra `<div>` wrapper that is not found in the [pure html version](https://github.com/brianzelip/brianzelip.github.io/blob/master/index.html#L67)
+2. sends big ass js bundle down the pipe to the user, even though there is no js in use on the page
+
+1 is acceptible, 2 is not.
 
 ## legacy brainstorm
 
