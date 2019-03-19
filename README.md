@@ -49,6 +49,6 @@ However, this markdown file really represents the "about" data point. It just ha
 
 Q: Let's say I want to include the "about" data point, and the "built with" data point on the same page?
 
-A: You just need to import the "built with" markdown file!
+A: Import them both!
 
-Put simply, I want the ability to render content from _multiple_ markdown files in a single component.
+Put simply, I want the ability to render content from one or more markdown files anywhere in any component.
