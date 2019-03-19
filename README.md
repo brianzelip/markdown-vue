@@ -13,7 +13,7 @@ See [the demo](https://markdown-it-vue.netlify.com).
 - [markdown-it](https://github.com/markdown-it/markdown-it)
 - [parcel-plugin-markdown-string](https://github.com/jaywcjlove/parcel-plugin-markdown-string)
 
-## guiding principles
+## guiding ideas
 
 - markdown files as components of prose/body copy/marketing text
 - markdown files as data, not as pages
