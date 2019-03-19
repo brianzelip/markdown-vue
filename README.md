@@ -18,21 +18,21 @@ See [the demo](https://markdown-it-vue.netlify.com).
 - markdown files as components of prose/body copy/marketing text
 - markdown files as data, not as pages
 - maintain strings in an [authorable format](https://johno.com/authorable-format)
-- import markdown files into Vue components
+- import one or more markdown files into Vue components
 
 ## background
 
-I have a [simple home page](http://zelip.me) that contains an image, some links, and a bio statement. It's maintained in the classic, hands-on html way.
+I have a [simple home page](http://zelip.me) that contains an image, some links, and a bio. It's maintained in the classic, hands-on-html way.
 
-Only the bio statement changes over time. As such, I'd like to refactor the bio statement out of the html and into its own isolated environment for maintenance, then import it into the html.
+The bio changes over time. As such, I'd like to refactor it out of the html and into its own isolated environment for maintenance, then import it wherever i want in the html.
 
-Sure, the bio statement is just a string, and since I'm using Vue, why not just make a data property for this string? Because the string has a link in it, and I don't want to write html outside of html! Even if the string does not have a link in it, it's still nicer to maintain strings in markdown than html.
+Sure, the bio is just a string, and since I'm using Vue, why not just make a data property for this string? I could! But the string has a link in it, and I don't want to write html outside of html! Even if the string does not have a link in it, it's still nicer to maintain strings in markdown than html.
 
-This repo was born from attempts at getting [Gridsome](https://gridsome.org) to generate my static home page out of Vue components that render markdown content. However, Gridsome seems to only want to work with markdown files at page scale (file == page), not at the more granular data point scale (file == page content).
+This repo was born from attempts at getting [Gridsome](https://gridsome.org) to generate my static home page from Vue components that render markdown content. However, Gridsome seems to only want to work with markdown files at page scale (file == page), not at the more granular data point scale (file == page *content*).
 
 ## Vue-related concerns with this approach
 
-- imposes extra `<div>` wrapper that is not found in the pure html version
+- imposes extra `<div>` wrapper that is not found in the [pure html version](https://github.com/brianzelip/brianzelip.github.io/blob/master/index.html#L67)
 - sends big ass js bundle down the pipe to the user, even though there is no js in use on the page
 
 ## legacy brainstorm
