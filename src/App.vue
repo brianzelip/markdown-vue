@@ -1,8 +1,8 @@
 <template>
-  <div id="app2">
+  <main>
     <h1>Brian Zelip</h1>
     <div v-html="bio"></div>
-  </div>
+  </main>
 </template>
 
 <script>
