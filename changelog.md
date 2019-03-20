@@ -46,12 +46,22 @@ Use `domPropsInnerHTML`, not `v-html` in jsx!
 
 via [stack overflow](https://stackoverflow.com/a/50002981/2145103) and [babel-plugin-transform-vue-jsx docs](https://github.com/vuejs/babel-plugin-transform-vue-jsx#difference-from-react-jsx)
 
-1. Render mdx
+3. Change repo name to markdown-vue
 
-- starting point: v1.1.0
+- starting point: v1.1.1
 - ending point: v2.0.0
+- starting branch: rename-repo
+- steps:
+  - update gh repo settings
+  - update all link references to old URL in copy
+  - update all link references to old url in code
+  - update git configs all around
+
+4. Render mdx
+
+- starting point: v2.0.0
+- ending point: v2.1.0
 - starting branch: mdx
 - steps:
-  - **rename repo** to markdown-vue
   - get rid of markdown-it
   - implent mdx
