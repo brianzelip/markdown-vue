@@ -24,8 +24,8 @@ Here are the main resources I've looked into since his ping:
      a. https://vuejs.org/v2/api/#vm-slots
      b. https://vuejs.org/v2/api/#vm-scopedSlots
   3. https://vuejs.org/v2/guide/render-function.html#Slots
-  4. [JSX](https://vuejs.org/v2/guide/render-function.html#JSX)
-  5. [Vue jsx installation](https://github.com/vuejs/jsx#installation)
+  4. [jsx in Vue.render()](https://vuejs.org/v2/guide/render-function.html#JSX)
+  5. [Vue jsx](https://github.com/vuejs/jsx)
 
 Steps:
 
@@ -39,5 +39,6 @@ Steps:
 - starting branch: mdx
 - steps:
   - **rename repo** to markdown-vue
+  - refactor src/App.vue into src/components/App.js
   - get rid of markdown-it
   - implent mdx
