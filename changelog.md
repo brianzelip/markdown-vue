@@ -31,3 +31,10 @@ Steps:
 
 - let's get jsx up and running
 - then let's get mdx up and running!
+
+2. Render mdx
+
+- starting point: v1.1.0
+- ending point: v1.2.0
+- starting branch: mdx
+- steps:
