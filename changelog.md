@@ -24,10 +24,34 @@ Here are the main resources I've looked into since his ping:
      a. https://vuejs.org/v2/api/#vm-slots
      b. https://vuejs.org/v2/api/#vm-scopedSlots
   3. https://vuejs.org/v2/guide/render-function.html#Slots
-  4. [JSX](https://vuejs.org/v2/guide/render-function.html#JSX)
-  5. [Vue jsx installation](https://github.com/vuejs/jsx#installation)
+  4. [jsx in Vue.render()](https://vuejs.org/v2/guide/render-function.html#JSX)
+  5. [Vue jsx](https://github.com/vuejs/jsx)
 
 Steps:
 
 - let's get jsx up and running
 - then let's get mdx up and running!
+
+2. Refactor App.vue into App.js
+
+- starting point: v1.1.0
+- ending point: v1.1.1
+- starting branch: refactor-App
+- steps:
+  - refactor src/App.vue into src/components/App.js
+
+Regarding the use of Vue's `v-html` directive in jsx, as is the case with App.js:
+
+Use `domPropsInnerHTML`, not `v-html` in jsx!
+
+via [stack overflow](https://stackoverflow.com/a/50002981/2145103) and [babel-plugin-transform-vue-jsx docs](https://github.com/vuejs/babel-plugin-transform-vue-jsx#difference-from-react-jsx)
+
+1. Render mdx
+
+- starting point: v1.1.0
+- ending point: v2.0.0
+- starting branch: mdx
+- steps:
+  - **rename repo** to markdown-vue
+  - get rid of markdown-it
+  - implent mdx
