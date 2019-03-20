@@ -40,7 +40,13 @@ Steps:
 - steps:
   - refactor src/App.vue into src/components/App.js
 
-3. Render mdx
+Regarding the use of Vue's `v-html` directive in jsx, as is the case with App.js:
+
+Use `domPropsInnerHTML`, not `v-html` in jsx!
+
+via [stack overflow](https://stackoverflow.com/a/50002981/2145103) and [babel-plugin-transform-vue-jsx docs](https://github.com/vuejs/babel-plugin-transform-vue-jsx#difference-from-react-jsx)
+
+1. Render mdx
 
 - starting point: v1.1.0
 - ending point: v2.0.0
