@@ -1,3 +1,4 @@
 {
-  "presets": ["@vue/babel-preset-jsx"]
+  "presets": ["@vue/babel-preset-jsx", "@babel/env", "@babel/react"],
+  "plugins": ["@babel/proposal-object-rest-spread"]
 }
