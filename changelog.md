@@ -46,9 +46,9 @@ Use `domPropsInnerHTML`, not `v-html` in jsx!
 
 via [stack overflow](https://stackoverflow.com/a/50002981/2145103) and [babel-plugin-transform-vue-jsx docs](https://github.com/vuejs/babel-plugin-transform-vue-jsx#difference-from-react-jsx)
 
-1. Render mdx
+3. Render mdx
 
-- starting point: v1.1.0
+- starting point: v1.1.1
 - ending point: v2.0.0
 - starting branch: mdx
 - steps:
