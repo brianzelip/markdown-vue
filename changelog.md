@@ -35,6 +35,9 @@ Steps:
 2. Render mdx
 
 - starting point: v1.1.0
-- ending point: v1.2.0
+- ending point: v2.0.0
 - starting branch: mdx
 - steps:
+  - **rename repo** to markdown-vue
+  - get rid of markdown-it
+  - implent mdx
