@@ -32,13 +32,20 @@ Steps:
 - let's get jsx up and running
 - then let's get mdx up and running!
 
-2. Render mdx
+2. Refactor App.vue into App.js
+
+- starting point: v1.1.0
+- ending point: v1.1.1
+- starting branch: refactor-App
+- steps:
+  - refactor src/App.vue into src/components/App.js
+
+3. Render mdx
 
 - starting point: v1.1.0
 - ending point: v2.0.0
 - starting branch: mdx
 - steps:
   - **rename repo** to markdown-vue
-  - refactor src/App.vue into src/components/App.js
   - get rid of markdown-it
   - implent mdx
