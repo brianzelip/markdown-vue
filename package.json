@@ -4,7 +4,7 @@
   "description": "Sandbox for rendering markdown in vue templates.",
   "main": "index.html",
   "repository": {
-    "url": "https://github.com/brianzelip/markdown-it-vue.git"
+    "url": "https://github.com/brianzelip/markdown-vue.git"
   },
   "scripts": {
     "start": "parcel index.html",

@@ -1,10 +1,10 @@
 # markdown-vue
 
-This is a simple proof of concept Vue app that renders some markdown [in a component](https://github.com/brianzelip/markdown-it-vue/blob/master/src/App.vue#L15-L18).
+This is a simple proof of concept Vue app that renders some markdown [in a component](https://github.com/brianzelip/markdown-vue/blob/master/src/App.vue#L15-L18).
 
 The aim of this project is to figure out a solution to import a markdown file into a Vue component to be rendered like any data or computed property.
 
-See [the demo](https://markdown-it-vue.netlify.com).
+See [the demo](https://markdown-vue.netlify.com).
 
 ## starring
 
