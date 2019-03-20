@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "rm -rf dist .cache && parcel build index.html"
   },
   "author": "Brian Zelip",
   "license": "MIT",
