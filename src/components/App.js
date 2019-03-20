@@ -16,7 +16,7 @@ export default {
     return (
       <main>
         <h1>Brian Zelip</h1>
-        <div v-html="bio" />
+        <div domPropsInnerHTML={this.bio} />
         <TheFooter />
       </main>
     );
