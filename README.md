@@ -1,4 +1,4 @@
-# markdown-it - vue
+# markdown-vue
 
 This is a simple proof of concept Vue app that renders some markdown [in a component](https://github.com/brianzelip/markdown-it-vue/blob/master/src/App.vue#L15-L18).
 
@@ -10,7 +10,8 @@ See [the demo](https://markdown-it-vue.netlify.com).
 
 - [Parcel](https://parceljs.org)
 - [Vue](https://vuejs.org)
-- [markdown-it](https://github.com/markdown-it/markdown-it)
+- [@vue/babel-preset-jsx](https://github.com/vuejs/jsx)
+- ~~[markdown-it](https://github.com/markdown-it/markdown-it)~~
 - [parcel-plugin-markdown-string](https://github.com/jaywcjlove/parcel-plugin-markdown-string)
 
 ## guiding ideas
@@ -28,7 +29,7 @@ The bio changes over time. As such, I'd like to refactor it out of the html and 
 
 Sure, the bio is just a string, and since I'm using Vue, why not just make a data property for this string? I could! But the string has a link in it, and I don't want to write html outside of html! Even if the string does not have a link in it, it's still nicer to maintain strings in markdown than html.
 
-This repo was born from [attempts at getting Gridsome to generate my static home page](https://github.com/brianzelip/zelip.me) from Vue components that render markdown content. However, Gridsome seems to only want to work with markdown files at page scale (file == page), not at the more granular data point scale (file == page *content*).
+This repo was born from [attempts at getting Gridsome to generate my static home page](https://github.com/brianzelip/zelip.me) from Vue components that render markdown content. However, Gridsome seems to only want to work with markdown files at page scale (file == page), not at the more granular data point scale (file == page _content_).
 
 ## Vue-related concerns with this approach
 
